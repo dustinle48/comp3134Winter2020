@@ -1,0 +1,10 @@
+Pinging facebook.com [157.240.2.35] with 32 bytes of data:
+Reply from 157.240.2.35: bytes=32 time=15ms TTL=53
+Reply from 157.240.2.35: bytes=32 time=15ms TTL=53
+Reply from 157.240.2.35: bytes=32 time=15ms TTL=53
+Reply from 157.240.2.35: bytes=32 time=16ms TTL=53
+
+Ping statistics for 157.240.2.35:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 15ms, Maximum = 16ms, Average = 15ms

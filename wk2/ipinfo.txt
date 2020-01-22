@@ -1,0 +1,19 @@
+Domain Name: vnexpress.net
+IP Address: 111.65.250.2
+Geolocation: VN (Viet Nam), 35, Thai Binh, N/A Ho Chi Minh City
+---------------------------------------------------------------------
+Domain Name: google.com
+IP Address: 216.239.34.117
+Geolocation: US (United States), CA, California, 94608 Emeryville
+---------------------------------------------------------------------
+Domain Name: github.com
+IP Address: 192.30.253.112
+Geolocation: US (United States), CA, California, 94107 San Francisco
+---------------------------------------------------------------------
+Domain Name: twitch.tv
+IP Address: 151.101.130.167
+Geolocation: US (United States), CA, California, 94107 San Francisco
+---------------------------------------------------------------------
+Domain Name: georgebrown.ca
+IP Address: 198.96.86.202
+Geolocation: CA (Canada), ON, Ontario, M5T Toronto

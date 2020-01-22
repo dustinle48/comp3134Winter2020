@@ -1,0 +1,17 @@
+Tracing route to facebook.com [157.240.2.35]
+over a maximum of 30 hops:
+
+  1    <1 ms    <1 ms    <1 ms  mynetwork [192.168.2.1]
+  2     3 ms     1 ms    <1 ms  10.11.5.121
+  3    <1 ms    <1 ms    <1 ms  10.178.206.72
+  4     1 ms     2 ms     1 ms  10.178.206.73
+  5    18 ms    21 ms    21 ms  tcore4-toronto12_2-4-0-0_.net.bell.ca [64.230.104.164]
+  6    16 ms    21 ms    21 ms  tcore4-chicagocp_hundredgige0-4-0-0.net.bell.ca [64.230.79.157]
+  7    17 ms    16 ms    16 ms  bx7-chicagodt_bundle-ether5.net.bell.ca [64.230.79.171]
+  8    16 ms    16 ms    15 ms  ae9.pr03.ord3.tfbnw.net [157.240.67.78]
+  9    16 ms    15 ms    15 ms  po111.asw02.ord3.tfbnw.net [31.13.24.44]
+ 10    13 ms    13 ms    13 ms  po722.psw01.ord2.tfbnw.net [157.240.40.35]
+ 11    16 ms    15 ms    16 ms  173.252.67.5
+ 12    15 ms    15 ms    15 ms  edge-star-mini-shv-01-ort2.facebook.com [157.240.2.35]
+
+Trace complete.
