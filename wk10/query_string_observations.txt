@@ -1,0 +1,8 @@
+1. The URL changed from https://www.dictionary.com/browse/cybersecurity to https://www.dictionary.com/browse/home?s=t
+
+2. The URL changed to https://www.dictionary.com/misspelling?term=homt
+
+3. The URL changed to https://www.dictionary.com/noresult?term=%3Cscript%3Ealert(%27hello%27)%3C%2Fscript%3E&s=ts
+The web returns search results including memes, nature, writing, etc that has "hello" in its content.
+
+4. It returns the same results as number 3.

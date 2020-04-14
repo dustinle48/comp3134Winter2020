@@ -1,0 +1,4 @@
+To improve the security of the directory_traversal_part1.php file, use basename() to clarify that the base folder to scan is /var/www/html,
+code:
+$allowedDirectory = 'var/www/html';
+$path = isset(GET['q']) ? basename($allowedDirectory) : '.'

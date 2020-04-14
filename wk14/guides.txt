@@ -1,0 +1,41 @@
+ssh to droplet
+
+enter mysql
+mysql -u root
+If you see
+mysql>
+That means you already logged in
+
+1. Create db
+=> CREATE DATABASE database_name
+
+
+2. switch to new database
+=> use database_name
+
+3. create table
+CREATE TABLE table_name (
+       id int NOT NULL PRIMARY KEY,
+       username VARCHAR(255),
+       email VARCHAR(255),
+       firstname VARCHAR(255),
+       lastname VARCHAR(255),
+       active VARCHAR(255)
+);
+
+4. Add 5 unique rows to the users table
+INSERT INTO users VALUES (1,'profben','profben@email.com', 'Ben', 'Blanc', 0);
+INSERT INTO users VALUES (2,'quangpham','quangpham@email.com', 'Quang', 'Pham', 1);
+INSERT INTO users VALUES (3,'tunguyen','tunguyen@email.com', 'Tu', 'Nguyen', 0);
+INSERT INTO users VALUES (4,'thongnguyen','thongnguyen@email.com', 'Thong', 'Nguyen', 0);
+INSERT INTO users VALUES (5,'thanhquan','thanhquan@email.com', 'Thanh', 'Quang', 1);
+
+5. Add a new user to work with (it's a good practice to avoid working with root user)
+Step 1: Login to MySQL: mysql -u root
+Step 2: Create a new user: CREATE USER 'username'@'localhost' IDENTIFIED BY 'your_password_here';
+Step 3: Grant all privileges: GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost';
+Step 4: Flush privileges: FLUSH PRIVILEGES;
+Step 5: exit MySQL
+Step 6: Restart mysql service: service mysql restart
+
+I) Command: mysqldump -p -u username database_name > dump.sql
